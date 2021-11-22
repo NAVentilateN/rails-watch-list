@@ -1,0 +1,12 @@
+<h1>Bookmarks#new</h1>
+<p>Find me in app/views/bookmarks/new.html.erb</p>
+
+<%= simple_form_for [@list, @bookmark] do |f| %>
+  <%= f.input :movie_id, collection: @movie_instances %>
+  <%# f.input :movie_id, collection: @movie_instances, input_html: { multiple: true } %>
+  <%= f.input :comment %>
+  <%= f.submit 'Add movie to List' %>
+<% end %>
+<%# select the movie to be added %>
+<%# select from a drop down list %>
+<%#  %>

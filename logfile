@@ -1,2 +1,153 @@
 2021-11-18 17:22:59.498 +08 [7140] FATAL:  lock file "postmaster.pid" already exists
 2021-11-18 17:22:59.498 +08 [7140] HINT:  Is another postmaster (PID 7128) running in data directory "/usr/local/var/postgres"?
+2021-11-20 11:37:35.583 +08 [23025] FATAL:  lock file "postmaster.pid" already exists
+2021-11-20 11:37:35.583 +08 [23025] HINT:  Is another postmaster (PID 7128) running in data directory "/usr/local/var/postgres"?
+2021-11-20 11:38:03.592 +08 [23145] FATAL:  lock file "postmaster.pid" already exists
+2021-11-20 11:38:03.592 +08 [23145] HINT:  Is another postmaster (PID 23135) running in data directory "/usr/local/var/postgres"?
+2021-11-20 11:38:27.584 +08 [23724] FATAL:  lock file "postmaster.pid" already exists
+2021-11-20 11:38:27.584 +08 [23724] HINT:  Is another postmaster (PID 23135) running in data directory "/usr/local/var/postgres"?
+2021-11-20 11:38:55.522 +08 [23774] LOG:  starting PostgreSQL 14.1 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-11-20 11:38:55.524 +08 [23774] LOG:  could not bind IPv6 address "::1": Address already in use
+2021-11-20 11:38:55.524 +08 [23774] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-11-20 11:38:55.524 +08 [23774] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2021-11-20 11:38:55.524 +08 [23774] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-11-20 11:38:55.524 +08 [23774] WARNING:  could not create listen socket for "localhost"
+2021-11-20 11:38:55.524 +08 [23774] FATAL:  could not create any TCP/IP sockets
+2021-11-20 11:38:55.525 +08 [23774] LOG:  database system is shut down
+2021-11-20 11:40:44.507 +08 [24088] LOG:  starting PostgreSQL 14.1 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-11-20 11:40:44.509 +08 [24088] LOG:  listening on IPv6 address "::1", port 5432
+2021-11-20 11:40:44.509 +08 [24088] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-11-20 11:40:44.510 +08 [24088] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-11-20 11:40:44.516 +08 [24089] LOG:  database system was shut down at 2021-11-20 11:40:24 +08
+2021-11-20 11:40:44.522 +08 [24088] LOG:  database system is ready to accept connections
+2021-11-20 11:46:02.235 +08 [24627] FATAL:  lock file "postmaster.pid" already exists
+2021-11-20 11:46:02.235 +08 [24627] HINT:  Is another postmaster (PID 24088) running in data directory "/usr/local/var/postgres"?
+2021-11-20 11:46:08.781 +08 [24663] FATAL:  database "rails_watch_list_test" does not exist
+2021-11-20 11:46:08.805 +08 [24664] FATAL:  database "rails_watch_list_test" does not exist
+2021-11-20 11:46:08.813 +08 [24665] FATAL:  database "rails_watch_list_test" does not exist
+2021-11-20 11:49:58.145 +08 [25237] ERROR:  column movies.list_id does not exist at character 37
+2021-11-20 11:49:58.145 +08 [25237] STATEMENT:  SELECT COUNT(*) FROM "movies" WHERE "movies"."list_id" = $1
+2021-11-20 11:50:12.233 +08 [25349] ERROR:  column movies.list_id does not exist at character 37
+2021-11-20 11:50:12.233 +08 [25349] STATEMENT:  SELECT COUNT(*) FROM "movies" WHERE "movies"."list_id" = $1
+2021-11-20 11:50:37.457 +08 [25530] ERROR:  column movies.list_id does not exist at character 37
+2021-11-20 11:50:37.457 +08 [25530] STATEMENT:  SELECT COUNT(*) FROM "movies" WHERE "movies"."list_id" = $1
+2021-11-20 11:51:37.522 +08 [25882] ERROR:  column movies.list_id does not exist at character 37
+2021-11-20 11:51:37.522 +08 [25882] STATEMENT:  SELECT COUNT(*) FROM "movies" WHERE "movies"."list_id" = $1
+2021-11-20 11:52:08.610 +08 [26051] ERROR:  column movies.list_id does not exist at character 37
+2021-11-20 11:52:08.610 +08 [26051] STATEMENT:  SELECT COUNT(*) FROM "movies" WHERE "movies"."list_id" = $1
+2021-11-20 11:52:36.937 +08 [26165] ERROR:  column movies.list_id does not exist at character 37
+2021-11-20 11:52:36.937 +08 [26165] STATEMENT:  SELECT COUNT(*) FROM "movies" WHERE "movies"."list_id" = $1
+2021-11-20 11:52:59.334 +08 [26262] ERROR:  column movies.list_id does not exist at character 37
+2021-11-20 11:52:59.334 +08 [26262] STATEMENT:  SELECT COUNT(*) FROM "movies" WHERE "movies"."list_id" = $1
+2021-11-20 11:53:21.661 +08 [26391] ERROR:  column movies.list_id does not exist at character 37
+2021-11-20 11:53:21.661 +08 [26391] STATEMENT:  SELECT COUNT(*) FROM "movies" WHERE "movies"."list_id" = $1
+2021-11-20 11:53:54.294 +08 [26572] ERROR:  column movies.list_id does not exist at character 37
+2021-11-20 11:53:54.294 +08 [26572] STATEMENT:  SELECT COUNT(*) FROM "movies" WHERE "movies"."list_id" = $1
+2021-11-20 11:53:54.320 +08 [26572] ERROR:  update or delete on table "lists" violates foreign key constraint "fk_rails_29c05dc16c" on table "bookmarks"
+2021-11-20 11:53:54.320 +08 [26572] DETAIL:  Key (id)=(42) is still referenced from table "bookmarks".
+2021-11-20 11:53:54.320 +08 [26572] STATEMENT:  DELETE FROM "lists" WHERE "lists"."id" = $1
+2021-11-20 11:53:54.383 +08 [26572] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2021-11-20 11:53:54.383 +08 [26572] DETAIL:  Key (id)=(8) is still referenced from table "bookmarks".
+2021-11-20 11:53:54.383 +08 [26572] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2021-11-20 11:54:30.680 +08 [26767] ERROR:  column movies.list_id does not exist at character 37
+2021-11-20 11:54:30.680 +08 [26767] STATEMENT:  SELECT COUNT(*) FROM "movies" WHERE "movies"."list_id" = $1
+2021-11-20 11:54:30.718 +08 [26767] ERROR:  column movies.list_id does not exist at character 39
+2021-11-20 11:54:30.718 +08 [26767] STATEMENT:  SELECT "movies".* FROM "movies" WHERE "movies"."list_id" = $1
+2021-11-20 11:54:30.764 +08 [26767] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2021-11-20 11:54:30.764 +08 [26767] DETAIL:  Key (id)=(16) is still referenced from table "bookmarks".
+2021-11-20 11:54:30.764 +08 [26767] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2021-11-20 11:58:00.859 +08 [26945] ERROR:  column movies.list_id does not exist at character 37
+2021-11-20 11:58:00.859 +08 [26945] STATEMENT:  SELECT COUNT(*) FROM "movies" WHERE "movies"."list_id" = $1
+2021-11-20 11:58:00.895 +08 [26945] ERROR:  column movies.list_id does not exist at character 37
+2021-11-20 11:58:00.895 +08 [26945] STATEMENT:  SELECT 1 AS one FROM "movies" WHERE "movies"."list_id" = $1 LIMIT $2
+2021-11-20 11:58:00.935 +08 [26945] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2021-11-20 11:58:00.935 +08 [26945] DETAIL:  Key (id)=(24) is still referenced from table "bookmarks".
+2021-11-20 11:58:00.935 +08 [26945] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2021-11-20 11:58:49.538 +08 [27199] ERROR:  column movies.list_id does not exist at character 37
+2021-11-20 11:58:49.538 +08 [27199] STATEMENT:  SELECT COUNT(*) FROM "movies" WHERE "movies"."list_id" = $1
+2021-11-20 11:58:49.574 +08 [27199] ERROR:  column movies.list_id does not exist at character 39
+2021-11-20 11:58:49.574 +08 [27199] STATEMENT:  SELECT "movies".* FROM "movies" WHERE "movies"."list_id" = $1
+2021-11-20 11:59:46.799 +08 [27359] ERROR:  column movies.list_id does not exist at character 37
+2021-11-20 11:59:46.799 +08 [27359] STATEMENT:  SELECT COUNT(*) FROM "movies" WHERE "movies"."list_id" = $1
+2021-11-20 11:59:46.835 +08 [27359] ERROR:  column movies.list_id does not exist at character 39
+2021-11-20 11:59:46.835 +08 [27359] STATEMENT:  SELECT "movies".* FROM "movies" WHERE "movies"."list_id" = $1
+2021-11-20 12:00:36.416 +08 [27786] ERROR:  column movies.list_id does not exist at character 37
+2021-11-20 12:00:36.416 +08 [27786] STATEMENT:  SELECT COUNT(*) FROM "movies" WHERE "movies"."list_id" = $1
+2021-11-20 12:00:36.451 +08 [27786] ERROR:  column movies.list_id does not exist at character 39
+2021-11-20 12:00:36.451 +08 [27786] STATEMENT:  SELECT "movies".* FROM "movies" WHERE "movies"."list_id" = $1
+2021-11-20 12:00:52.441 +08 [27849] ERROR:  column movies.list_id does not exist at character 37
+2021-11-20 12:00:52.441 +08 [27849] STATEMENT:  SELECT COUNT(*) FROM "movies" WHERE "movies"."list_id" = $1
+2021-11-20 12:00:52.476 +08 [27849] ERROR:  column movies.list_id does not exist at character 39
+2021-11-20 12:00:52.476 +08 [27849] STATEMENT:  SELECT "movies".* FROM "movies" WHERE "movies"."list_id" = $1
+2021-11-20 12:00:52.522 +08 [27849] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2021-11-20 12:00:52.522 +08 [27849] DETAIL:  Key (id)=(56) is still referenced from table "bookmarks".
+2021-11-20 12:00:52.522 +08 [27849] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2021-11-20 12:01:21.940 +08 [28095] ERROR:  column movies.list_id does not exist at character 37
+2021-11-20 12:01:21.940 +08 [28095] STATEMENT:  SELECT COUNT(*) FROM "movies" WHERE "movies"."list_id" = $1
+2021-11-20 12:01:38.572 +08 [28166] ERROR:  column movies.list_id does not exist at character 37
+2021-11-20 12:01:38.572 +08 [28166] STATEMENT:  SELECT COUNT(*) FROM "movies" WHERE "movies"."list_id" = $1
+2021-11-20 12:01:38.610 +08 [28166] ERROR:  column movies.list_id does not exist at character 39
+2021-11-20 12:01:38.610 +08 [28166] STATEMENT:  SELECT "movies".* FROM "movies" WHERE "movies"."list_id" = $1
+2021-11-20 12:01:38.656 +08 [28166] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2021-11-20 12:01:38.656 +08 [28166] DETAIL:  Key (id)=(68) is still referenced from table "bookmarks".
+2021-11-20 12:01:38.656 +08 [28166] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2021-11-20 12:01:51.905 +08 [28241] ERROR:  column movies.list_id does not exist at character 37
+2021-11-20 12:01:51.905 +08 [28241] STATEMENT:  SELECT COUNT(*) FROM "movies" WHERE "movies"."list_id" = $1
+2021-11-20 12:01:51.948 +08 [28241] ERROR:  update or delete on table "lists" violates foreign key constraint "fk_rails_29c05dc16c" on table "bookmarks"
+2021-11-20 12:01:51.948 +08 [28241] DETAIL:  Key (id)=(120) is still referenced from table "bookmarks".
+2021-11-20 12:01:51.948 +08 [28241] STATEMENT:  DELETE FROM "lists" WHERE "lists"."id" = $1
+2021-11-20 12:01:52.003 +08 [28241] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2021-11-20 12:01:52.003 +08 [28241] DETAIL:  Key (id)=(76) is still referenced from table "bookmarks".
+2021-11-20 12:01:52.003 +08 [28241] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2021-11-20 12:03:44.202 +08 [28641] ERROR:  column movies.list_id does not exist at character 37
+2021-11-20 12:03:44.202 +08 [28641] STATEMENT:  SELECT COUNT(*) FROM "movies" WHERE "movies"."list_id" = $1
+2021-11-20 12:03:44.241 +08 [28641] ERROR:  column movies.list_id does not exist at character 39
+2021-11-20 12:03:44.241 +08 [28641] STATEMENT:  SELECT "movies".* FROM "movies" WHERE "movies"."list_id" = $1
+2021-11-20 12:03:44.289 +08 [28641] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2021-11-20 12:03:44.289 +08 [28641] DETAIL:  Key (id)=(84) is still referenced from table "bookmarks".
+2021-11-20 12:03:44.289 +08 [28641] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2021-11-20 12:07:06.245 +08 [28847] ERROR:  update or delete on table "lists" violates foreign key constraint "fk_rails_29c05dc16c" on table "bookmarks"
+2021-11-20 12:07:06.245 +08 [28847] DETAIL:  Key (id)=(138) is still referenced from table "bookmarks".
+2021-11-20 12:07:06.245 +08 [28847] STATEMENT:  DELETE FROM "lists" WHERE "lists"."id" = $1
+2021-11-20 12:07:06.299 +08 [28847] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2021-11-20 12:07:06.299 +08 [28847] DETAIL:  Key (id)=(93) is still referenced from table "bookmarks".
+2021-11-20 12:07:06.299 +08 [28847] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2021-11-20 12:07:45.677 +08 [28977] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2021-11-20 12:07:45.677 +08 [28977] DETAIL:  Key (id)=(102) is still referenced from table "bookmarks".
+2021-11-20 12:07:45.677 +08 [28977] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2021-11-20 12:08:23.827 +08 [29158] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2021-11-20 12:08:23.827 +08 [29158] DETAIL:  Key (id)=(120) is still referenced from table "bookmarks".
+2021-11-20 12:08:23.827 +08 [29158] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2021-11-20 12:11:44.329 +08 [29469] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2021-11-20 12:11:44.329 +08 [29469] DETAIL:  Key (id)=(129) is still referenced from table "bookmarks".
+2021-11-20 12:11:44.329 +08 [29469] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2021-11-20 12:12:07.889 +08 [29598] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2021-11-20 12:12:07.889 +08 [29598] DETAIL:  Key (id)=(138) is still referenced from table "bookmarks".
+2021-11-20 12:12:07.889 +08 [29598] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2021-11-20 12:12:33.966 +08 [29735] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2021-11-20 12:12:33.966 +08 [29735] DETAIL:  Key (id)=(147) is still referenced from table "bookmarks".
+2021-11-20 12:12:33.966 +08 [29735] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2021-11-20 12:12:53.824 +08 [29865] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2021-11-20 12:12:53.824 +08 [29865] DETAIL:  Key (id)=(156) is still referenced from table "bookmarks".
+2021-11-20 12:12:53.824 +08 [29865] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2021-11-20 12:14:08.356 +08 [30099] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2021-11-20 12:14:08.356 +08 [30099] DETAIL:  Key (id)=(165) is still referenced from table "bookmarks".
+2021-11-20 12:14:08.356 +08 [30099] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2021-11-20 12:14:50.777 +08 [30252] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2021-11-20 12:14:50.777 +08 [30252] DETAIL:  Key (id)=(174) is still referenced from table "bookmarks".
+2021-11-20 12:14:50.777 +08 [30252] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2021-11-20 12:15:35.266 +08 [30336] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2021-11-20 12:15:35.266 +08 [30336] DETAIL:  Key (id)=(183) is still referenced from table "bookmarks".
+2021-11-20 12:15:35.266 +08 [30336] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2021-11-20 12:16:24.170 +08 [30656] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2021-11-20 12:16:24.170 +08 [30656] DETAIL:  Key (id)=(192) is still referenced from table "bookmarks".
+2021-11-20 12:16:24.170 +08 [30656] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2021-11-20 12:16:35.901 +08 [30731] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2021-11-20 12:16:35.901 +08 [30731] DETAIL:  Key (id)=(201) is still referenced from table "bookmarks".
+2021-11-20 12:16:35.901 +08 [30731] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2021-11-20 12:35:12.760 +08 [31672] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2021-11-20 12:35:12.760 +08 [31672] DETAIL:  Key (id)=(210) is still referenced from table "bookmarks".
+2021-11-20 12:35:12.760 +08 [31672] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2021-11-20 12:42:18.593 +08 [32246] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2021-11-20 12:42:18.593 +08 [32246] DETAIL:  Key (id)=(232) is still referenced from table "bookmarks".
+2021-11-20 12:42:18.593 +08 [32246] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1

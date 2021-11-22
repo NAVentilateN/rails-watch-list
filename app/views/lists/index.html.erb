@@ -1,0 +1,19 @@
+
+
+<div class="container">
+  <div class="banner">
+    <%= image_tag('banner.jpeg', class: 'banner')%>
+  </div>
+
+  <div class="card-container ">
+    <div class="row">
+      <% @lists.each do |list| %>
+        <div class="col-4">
+          <div class="card m-2 p-2 ">
+            <%= link_to list.name, list_path(list)%>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
