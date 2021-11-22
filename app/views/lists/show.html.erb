@@ -4,6 +4,8 @@
     <div class="col-4">
       <% @list.bookmarks.each do |bookmark| %>
         <%= Movie.find(bookmark.movie_id).title %>
+
+        <img src= <% Movie.find(bookmark.movie_id).poster_url %> alt="">
       <% end %>
     </div>
   </div>
